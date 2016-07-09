@@ -1,0 +1,249 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+ }
+
+#wrapper{
+    
+    margin:0 auto;
+    width:90%;
+}
+
+#h_top{
+    text-align: right;
+}
+
+#h_top > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.80em;
+}
+
+#h_top > p > a{
+    color:#0275d8;
+}
+
+#search_bar{
+    position: relative;
+    float: right;
+}
+
+#search_bar > input{
+   text-indent: 25px;
+   width:300px;
+   height: 30px;
+   box-shadow:2px 2px 5px lightblue; 
+}
+
+#search_bar > span.fa-search{
+    position: absolute;
+    top:8px;
+    left:10px;
+}
+
+.logo-text{
+    font-family: sans-serif;
+    float: left;
+    text-decoration: underline ;
+}
+
+#navigation-bar{
+    background-color: #3973BF;
+    padding:2px;
+}
+
+#navigation-bar > ul >li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+#navigation-bar > ul{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+#navigation-bar > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#navigation-bar > ul > li:hover{
+    opacity: 0.7;
+}
+
+.carousel-item img{
+ margin: 0 auto;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#lf{
+    width: 45%;
+    margin-left:20px;
+    float: left;
+    margin-right: 20px;
+}
+
+#lf h2{
+    background-color: #3973BF;
+    color:#fff;
+    font-family: sans-serif;
+    padding:5px; 
+   }
+
+#lf img{
+    margin-top: -20px;
+    width: 100%;
+}
+
+#rf{
+    width: 45%;
+    margin-left:20px;
+    float: right;
+    margin-right: 10px;
+}
+
+#rf h2{
+    background-color: #3973BF;
+    color:#fff;
+    font-family: sans-serif;
+    padding:5px; 
+   }
+
+#rf img{
+    margin-top: -20px;
+    width: 100%;
+}
+
+#rf , #lf > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+
+ #news{
+      display: inline-block;
+      width:100%;
+      border:1px #0275d8;
+      border-style: dashed;
+      padding:5px;
+      margin-top:20px;
+ }
+    
+    #news > h3{
+        width:15%;
+        float: left;
+        margin:0 auto;
+    }
+    
+    #news marquee{
+        float:right;
+        width:85%;
+    }
+
+
+#sfooter{
+    background-color: #F2F2F2;
+    margin-top:50px;
+    padding: 10px;
+    float: left;
+    width:100%;
+    margin-bottom: 20px;
+    border-top: 5px solid #E5E5E5;
+    border-bottom: 5px solid #E5E5E5;
+    }
+
+.links-group > ul > li{
+    list-style: none;
+    padding-top:5px;
+    font-family: Arial, sans-serif;
+}
+
+.links-group{
+    margin-left: 80px;
+}
+
+.mailing input{
+    width:300px;
+    height: 10px;
+    padding:10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #567798;
+    border: 2px #567798;
+    border-style:dotted;
+}
+
+.mailing h3{
+    font-family: Courier New, Courier, monospace;
+}
+
+.links-group > ul > li:hover{
+    opacity: 0.7;
+}
+
+.lfooter p{
+    text-align: center;
+}
+
+.lfooter{
+    margin-left:25%; 
+    float: left;
+    width:50%;
+}
+    
+/* Styles For Student Portal Starts Here */ 
+
+.login{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lg{
+    text-decoration: underline;
+}
+
+.login > input{
+    width:300px;
+    height: 30px;
+    text-indent: 10px;
+    box-shadow: 1px 1px 3px #80ccff;
+}
+
+.login > .submit{
+    width:150px;
+    height: 30px;
+    text-indent: 10px;
+}
+
+
+
+/* Styles for Alumni Starts Here */
+
+#alumni{
+    width:60%;
+    margin-left:2%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+
+.alumni{
+    color: #49495F;
+    border-bottom-color: #2A84BD;
+    border-bottom-style: dotted;
+    padding-bottom: 5px; 
+}
+
+.sc{
+    color:#0275d8;
+}
+
+.page-plugin{
+    float: right;
+    margin-right: 20px;
+}
